@@ -1,0 +1,23 @@
+# Ignore dataset folders
+train/
+test/
+data/
+
+# Ignore models and large files
+models/
+*.pkl
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.DS_Store
+
+# Ignore virtual environments
+venv/
+env/
